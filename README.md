@@ -2,7 +2,7 @@
 
 ## Service
 - nginx
-- app
+- app (php-fpm)
 - mysql
 - redis
 - adminer
