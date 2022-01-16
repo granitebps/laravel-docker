@@ -11,7 +11,7 @@
 ## How to
 - Setup your project in the root folder
 - Run ```make up``` to spin up the containers
-- Check Makefile to see prebuilt command that you can use
+- Check ```Makefile``` to see prebuilt command that you can use
 
 ## Exposed Ports
 - nginx ```:8000```
