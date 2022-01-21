@@ -38,4 +38,6 @@ RUN mkdir -p /usr/src/php/ext/redis \
 
 RUN curl -sS https://getcomposer.org/installer | php ;mv composer.phar /usr/local/bin/composer;
 
+COPY ./php.ini /usr/local/etc/php/php.ini
+
 ENV PATH="/root/.composer/vendor/bin:${PATH}"
